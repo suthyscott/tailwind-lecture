@@ -46,8 +46,8 @@ Extension.
 
 ## Creating custom classes
 
-Color scheme
+Adding in our custom colors. Demo extending colors vs replacing the default options. 
 
 ## Responsive Design
 
-# tailwind-lecture
+### Hamburger Menu? 
