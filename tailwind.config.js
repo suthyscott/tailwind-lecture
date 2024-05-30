@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      'prussian-blue': '#102E4A',
+      'tomato': '#FF6542'
+    }
   },
   plugins: [],
 }

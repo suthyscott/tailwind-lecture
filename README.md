@@ -22,16 +22,6 @@ Follow the docs for installation and setup instructions.
 
 There are other config options, such as `plugins`, but we're not going to go into them here as they're more advanced topics. 
 
-## Using Tailwind utility classes
-
-How to use the classes. 
-
-Finding what you need in the docs.
-
-Cheat sheet.
-
-Extension. 
-
 ### How does tailwind work? 
 
 Tailwind is designed around pre-built `utility classes`. These classes are written directly in your JSX in React components. 
@@ -43,7 +33,20 @@ But wait, isn't inline CSS super annoying and inefficient? Generally, yes. But t
 
 Demonstrate styling using Tailwind classes. 
 
+## Using Tailwind utility classes
+
+How to use the classes. 
+
+Finding what you need in the docs.
+
+Cheat sheet.
+
+Extension. 
+
+
 ## Creating custom classes
+
+Color scheme
 
 ## Responsive Design
 

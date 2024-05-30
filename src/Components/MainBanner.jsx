@@ -2,8 +2,8 @@ import React from "react"
 
 const MainBanner = () => {
     return (
-        <main className="flex justify-end items-center w-full h-[92vh]   text-orange-500 rounded-lg">
-            <div className="flex flex-col items-center justify-center w-3/4 h-full bg-slate-600">
+        <main className="flex justify-end items-center w-full h-[92vh]   text-tomato rounded-lg">
+            <div className="flex flex-col items-center justify-center w-3/4 h-full bg-prussian-blue">
                 <h1 className="text-5xl">Experience the Thrill.</h1>
                 <p className="text-lg mt-10">
                     Ride fast. Ride Hard. Ride Safe.

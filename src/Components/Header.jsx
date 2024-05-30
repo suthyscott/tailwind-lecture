@@ -5,7 +5,7 @@ import { GiFullMotorcycleHelmet } from "react-icons/gi"
 
 const Header = () => {
     return (
-        <nav className="flex justify-between h-[8vh] items-center px-5 bg-black text-orange-500">
+        <nav className="flex justify-between h-[8vh] items-center px-5 bg-prussian-blue text-tomato">
             <div className="w-1/4 flex justify-between">
                 <button>
                     <GiFullMotorcycleHelmet />
