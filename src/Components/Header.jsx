@@ -1,24 +1,23 @@
 import React from "react"
-import { FaGoogle, FaSearch , FaShoppingCart} from "react-icons/fa"
+import { FaGoogle, FaSearch, FaShoppingCart } from "react-icons/fa"
+import { MdAccountCircle } from "react-icons/md"
+import { GiFullMotorcycleHelmet } from "react-icons/gi"
 
 const Header = () => {
     return (
-        <nav className="flex justify-between h-[8vh] items-center">
-            <div className="w-3/4 flex justify-between">
+        <nav className="flex justify-between h-[8vh] items-center px-5 bg-black text-orange-500">
+            <div className="w-1/4 flex justify-between">
                 <button>
-                    <FaGoogle className="text-orange-500"/>
+                    <GiFullMotorcycleHelmet />
                 </button>
-                <button>Phones</button>
-                <button>Tablets</button>
-                <button>Watches and Trackers</button>
-                <button>Smart Home</button>
-                <button>Accessories</button>
-                <button>Subscriptions</button>
-                <button>Offers</button>
+                <button>HyperSport</button>
+                <button>Naked Sport</button>
+                <button>Cruisers</button>
             </div>
-            <div className="flex w-1/4 justify-end">
+            <div className="flex w-20 justify-between">
                 <FaSearch />
                 <FaShoppingCart />
+                <MdAccountCircle />
             </div>
         </nav>
     )

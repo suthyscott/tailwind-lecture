@@ -24,6 +24,14 @@ There are other config options, such as `plugins`, but we're not going to go int
 
 ## Using Tailwind utility classes
 
+How to use the classes. 
+
+Finding what you need in the docs.
+
+Cheat sheet.
+
+Extension. 
+
 ### How does tailwind work? 
 
 Tailwind is designed around pre-built `utility classes`. These classes are written directly in your JSX in React components. 

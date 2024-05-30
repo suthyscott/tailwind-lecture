@@ -2,28 +2,18 @@ import React from "react"
 
 const MainBanner = () => {
     return (
-        <main className="flex justify-between items-center h-[80vh] p-12 bg-[#f8f9fa]">
-            <div>
-                <h3>Fitbit Ace LTE</h3>
-                <h1>Play is calling.</h1>
-                <p>
-                    Your kids are always in reach with the first-of-its-kind
-                    smartwatch designed to make movement fun.
+        <main className="flex justify-end items-center w-full h-[92vh]   text-orange-500 rounded-lg">
+            <div className="flex flex-col items-center justify-center w-3/4 h-full bg-slate-600">
+                <h1 className="text-5xl">Experience the Thrill.</h1>
+                <p className="text-lg mt-10">
+                    Ride fast. Ride Hard. Ride Safe.
                 </p>
-                <p>
-                    Get 50% off an annual Fitbit Ace Pass data plan,§ plus an
-                    Ace Band on us.
-                </p>
-                <button>Pre-order</button>
             </div>
 
-            <div className="flex justify-between h-full w-1/2">
-                <div className="bg-red-500 w-1/4 h-full rounded-lg"></div>
-                <div className="h-full w-1/2 ">
-                    <div className="bg-orange-300 w-1/2 h-1/2 rounded-lg"></div>
-                    <div className="bg-blue-300 w-1/2 h-1/2 rounded-lg"></div>
-                </div>
-            </div>
+            <img
+                className="h-full"
+                src="https://images.unsplash.com/photo-1558981285-6f0c94958bb6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
         </main>
     )
 }
