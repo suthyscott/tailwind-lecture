@@ -1,14 +1,27 @@
-This repo is an alternative to the bootstrap lectue in unit 6 of the legacy course. 
-
-# Sections
+This repo is an alternative to the bootstrap lecture in unit 6 of the legacy course. 
 
 ## Go through slides about CSS frameworks
 
-## Why Tailwind?
+Why CSS frameworks are better. 
+
+## Why Tailwind? 
+
+Pros and cons of component libraries like Bootstrap:
+ - Efficiency and consistency. Having everyone use prebuilt components and/or grids is faster to develop and ensures things will look consistent throughout the site. 
+ - You are limited to the options in the library and the perscribed uses for those components. 
+
+### Popularity:
 - Fast growing and one of the most popular styling libraries for React
 - Excellent documentation
-- Can be a bit of a learning curve, but is highly efficient once you're used to the utility classes. More on this once we start actually writing Tailwind.
-- Tailwind is highly performant and reduces load times due to its JIT (just-in-time) method of generating CSS as it's needed.
+
+### Benefits: 
+- __Consistency and reusability__. Because you're using predefined utility classes, styling stays consistent between different developers. 
+- __Customizability__. Even though you're staying consistent with prebuilt utility classes, you have full customization of how you implement them. Meaning you're never limited by pre-determined options in a component library. 
+- __Scalability and performance__. Tailwind is highly performant and only loads CSS that is actually being used in your HTML, reducing load times considerably. It also scales extremely well because of the atomic nature (meaning that the utility classes are at the very root of each element, we're building with the smallest pieces first). 
+- __Responsive oriented__. Tailwind makes responsive design incredibly easy and intuitive. 
+- __Faster development__. Writing inline classes is counter intuitive at first, but once you get used to it it's a significantly faster way to style. 
+- __Component driven__. DRY is a core concept of CSS, because it's so easy to repeat yourself when styling. This is still true in Tailwind, but the atomic nature of the utility classes lends itself really well to effectively building reusable components. 
+
 
 ## Installing Tailwind
 
@@ -16,7 +29,7 @@ Follow the docs for installation and setup instructions.
 
 ### Tailwind config file
 
-`content`. Point out how the config file is setup to find any JS or TS files in the `src` folder and apply any class found in them. 
+`content`. The config file is setup to find any JS or TS files in the `src` folder and apply any class found in them. 
 
 `theme`. We'll use this later to define custom utility classes for our app. 
 
@@ -43,8 +56,10 @@ But wait, isn't inline CSS super annoying and inefficient? Generally, yes. But t
 
 Demonstrate styling using Tailwind classes. 
 
-## Creating custom classes
+## Creating Custom Classes
+Adding in our custom colors to config file. Demo extending colors vs replacing the default options.
 
 ## Responsive Design
+Using the premade breakpoints.
 
-# tailwind-lecture
+### Hamburger menu
