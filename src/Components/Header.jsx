@@ -1,5 +1,5 @@
 import React from "react"
-import { FaGoogle, FaSearch, FaShoppingCart } from "react-icons/fa"
+import { FaSearch, FaShoppingCart } from "react-icons/fa"
 import { MdAccountCircle } from "react-icons/md"
 import { GiFullMotorcycleHelmet } from "react-icons/gi"
 
