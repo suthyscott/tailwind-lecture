@@ -1,5 +1,7 @@
 This repo is an alternative to the bootstrap lecture in unit 6 of the legacy course. 
 
+_To see responsive design and custom classes examples, check out to their respective branches in this repo._
+
 ## Go through slides about CSS frameworks
 
 Why CSS frameworks are better. 
