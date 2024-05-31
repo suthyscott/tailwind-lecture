@@ -45,6 +45,10 @@ Demonstrate styling using Tailwind classes.
 
 ## Creating custom classes
 
+Adding in our custom colors. Demo extending colors vs replacing the default options.
+
 ## Responsive Design
 
-# tailwind-lecture
+Using the premade breakpoints. 
+
+### Hamburger menu
